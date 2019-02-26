@@ -1,0 +1,22 @@
+{
+  "name": "apinode",
+  "version": "1.0.0",
+  "description": "Uma API feita em nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "author": "Igor José",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.3.4",
+    "nodemon": "^1.18.10"
+  },
+  "dependencies": {
+    "consign": "^0.1.6",
+    "express": "^4.16.4",
+    "sequelize": "^3.8.0",
+    "sqlite3": "^4.0.6"
+  }
+}
